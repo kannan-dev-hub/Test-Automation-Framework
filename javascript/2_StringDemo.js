@@ -86,4 +86,3 @@ This is line three.
 //
 // String comparison
 
-sxs
