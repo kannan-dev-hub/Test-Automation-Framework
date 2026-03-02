@@ -9,7 +9,7 @@ var lname = "Mohan";
 // console.log(lname);
 var lname = "Dinesh";
 console.log(lname);
-
+    
 
 
 var a = 10;

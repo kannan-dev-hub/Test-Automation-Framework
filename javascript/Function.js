@@ -8,7 +8,7 @@ function greet(name) {
     console.log(`Hello, ${name}!. Welcome to the JS course`);
 }
 
-greet("Murali");
+greet("Kannan");
 
 function add(a, b) {
     console.log(a + b);    
