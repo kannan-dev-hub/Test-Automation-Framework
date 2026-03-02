@@ -6,11 +6,11 @@ console.log(20%3); // modulus operator
 console.log(2**3); // exponentiation operator 2 x 2 x 2 = 8
 console.log(10/0); // infinity
 
-let a = 10 + 100 + "Murali"; 
+let a = 10 + 100 + "Kannan"; 
 console.log(a);
 console.log(typeof a);
 
-let b = "Murali" + 10 + 100;
+let b = "Kannan" + 10 + 100;
 console.log(b);
 console.log(typeof b);
 
@@ -92,15 +92,3 @@ num /= 3; // 10
 console.log(num);
 
 console.log('kk' - 2)
-
-
-
-
-
-
-
-
-
-
-
-

@@ -91,6 +91,3 @@ arr.push(4);      // add to end
 arr.pop();        // remove from end
 arr.unshift(0);   // add to beginning
 arr.shift();      // remove from beginning
-
-
-

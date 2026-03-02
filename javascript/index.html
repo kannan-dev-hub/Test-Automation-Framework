@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mini Shopping Cart</title>
+        <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f6f6f6;
+        margin: 40px;
+      }
+      h1 {
+        color: #333;
+      }
+      .product {
+        background: #fff;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 6px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+      #cart {
+        background: #fff;
+        padding: 15px;
+        margin-top: 20px;
+        border-radius: 6px;
+      }
+    </style>
+    </head>
+    <body>
+        <h1>🛒 My Mini Shopping Cart</h1>
+        <div id="product-list"></div>
+
+        <div id="cart">
+            <h3>🧺 Cart Items:</h3>
+            <p id="cart-items">Your cart is empty.</p>
+            <p id="total">Total: ₹0</p>
+        </div>
+        <script src="cart.js"></script>
+
+    </body>
+
+</html>
