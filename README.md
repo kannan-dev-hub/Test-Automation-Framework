@@ -36,22 +36,32 @@ The framework is designed to be:
 ```
 Test-Automation-Framework
 │
-├── javascript/                    # JavaScript practice programs
+├── javascript/                       # JavaScript practice programs
 │   ├── 1_DataType.js
 │   ├── 2_StringDemo.js
 │   ├── Arrays.js
-│   └── Operations.js
+│   ├── Operations.js
+│   ├── Functions.js
+│   ├── Conditions.js
+│   └── Loops.js
 │
-└── playwright/                    # Playwright Automation Framework
-    ├── e2e-tests/                 # End-to-End test cases
-    │   └── example.spec.js
+└── playwright/                       # Playwright Automation Framework
     │
-    ├── playwright.config.js       # Playwright configuration
-    ├── package.json               # Dependencies
+    ├── e2e-tests/                    # End-to-End test cases
+    │   ├── example.spec.js
+    │   ├── login.spec.js
+    │   ├── signup.spec.js
+    │   ├── product.spec.js
+    │   └── checkout.spec.js
+    │
+    ├── playwright.config.js          # Playwright configuration
+    ├── package.json                  # Project dependencies
     ├── package-lock.json
-    ├── test-results/              # Execution artifacts
-    ├── playwright-report/         # HTML reports
-    └── .gitignore
+    │
+    ├── test-results/                 # Execution artifacts
+    ├── playwright-report/            # HTML test execution reports
+    │
+    └── .gitignore                    # Ignored files
 ```
 
 ---
