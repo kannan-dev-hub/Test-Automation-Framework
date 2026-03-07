@@ -1,7 +1,7 @@
 const {test, expect} = require('@playwright/test');
 
 test('Home Page Tile', async ({page}) => {
-    // Open skillmint website
+    // Open skillmint website page
     await page.goto('https://www.demoblaze.com/');
 
     // get title

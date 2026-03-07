@@ -10,14 +10,12 @@ test.skip ('Simple alerts', async({page}) => {
         expect(dialog.type()).toContain('alert');    //alert
         expect(dialog.message()).toContain('I am an alert box!')
         await dialog.accept();
-        
+      
 
     })
     // await page.click('#alertBtn');
     await page.click('//button[text()="Simple Alert"]');
-    await page.waitForTimeout(5000)
-
-
+    
 
 })
 
@@ -38,8 +36,7 @@ test.skip ('Confirmation Alert', async({page}) => {
     // await page.click('#confirmBtn');
     await page.click('//button[text()="Confirmation Alert"]');
     await expect(await page.locator('#demo')).toHaveText('You pressed OK!');
-    await page.waitForTimeout(5000)
-    
+   
 
 })
 
@@ -61,7 +58,6 @@ test ('Prompt alert', async({page}) => {
     // await page.click('#promptBtn');
     await page.click('//button[text()="Prompt Alert"]');
     await expect(await page.locator('#demo')).toHaveText('Hello Kanna! How are you today?');
-    await page.waitForTimeout(5000)
-    
+  
 
 })

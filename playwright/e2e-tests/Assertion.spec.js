@@ -6,7 +6,7 @@ test ('Assertion', async({page}) =>{
     await page.goto('https://demo.nopcommerce.com/register');
 
 
-    //page url or not(toHaveURL)
+    //page url or not(toHaveURL);
 
     await expect(page).toHaveURL('https://demo.nopcommerce.com/register');
 
@@ -45,14 +45,6 @@ test ('Assertion', async({page}) =>{
     //element has count? (toHaveCount)
     const options = await page.locator("select[id='customerCurrency'] option");
     await expect(options).toHaveCount(2)
-
-
-
-
-
-
-
-
 
 
 
