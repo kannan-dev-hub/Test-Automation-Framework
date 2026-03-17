@@ -14,7 +14,8 @@ test ('Handling InputBox',  async({page}) =>{
     await page.locator('//input[@id="fathername"]').fill('Pandya');
     console.log(await page.locator('//input[@id="fathername"]').inputValue());
 
-    await page.close()
+    await page.close();
+
 
 
 
